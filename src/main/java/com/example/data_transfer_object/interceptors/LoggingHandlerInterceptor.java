@@ -37,6 +37,6 @@ public class LoggingHandlerInterceptor implements HandlerInterceptor {
     public void afterCompletion(HttpServletRequest request, HttpServletResponse response, Object handler, Exception ex) throws Exception {
         System.out.println("After Completion...");
         System.out.println("Response Status: "  + response.getStatus());
-        System.out.println("Request completed.....");
+        System.out.println("Request completed.....git ");
     }
 }
